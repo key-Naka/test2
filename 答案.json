@@ -56,7 +56,7 @@
     },
     {
       "题号": "M014-S002",
-      "查询语句": "country=\"CN\" && protocol=\"DNS\""
+      "查询语句": "country=\"CN\" && protocol=\"dns\""
     },
     {
       "题号": "M015-S001",
@@ -64,27 +64,27 @@
     },
     {
       "题号": "M016-S006",
-      "查询语句": "protocol=\"SSH\" && port=\"22022\""
+      "查询语句": "protocol=\"ssh\" && port=\"22022\""
     },
     {
       "题号": "M017-S001",
-      "查询语句": "protocol=\"TCP\""
+      "查询语句": "base_protocol=\"tcp\""
     },
     {
       "题号": "M018-S006",
-      "查询语句": "protocol=\"SNMP\""
+      "查询语句": "protocol=\"snmp\""
     },
     {
       "题号": "M019-S010",
-      "查询语句": "protocol=\"Memcached\" && country=\"US\""
+      "查询语句": "protocol=\"memcached\" && country=\"US\""
     },
     {
       "题号": "M020-S005",
-      "查询语句": "protocol=\"FTP\""
+      "查询语句": "protocol=\"ftp\" && base_protocol=\"tcp\""
     },
     {
       "题号": "M021-S010",
-      "查询语句": "protocol=\"SSH\" && banner=\"OpenSSH_10.4\""
+      "查询语句": "protocol=\"ssh\" && banner=\"OpenSSH_10.4\""
     },
     {
       "题号": "M022-S007",
@@ -184,7 +184,7 @@
     },
     {
       "题号": "M046-S013",
-      "查询语句": "country=\"CN\" && type=\"subdomain\" && is_domain=\"false\""
+      "查询语句": "country=\"CN\" && is_domain=false"
     },
     {
       "题号": "M047-S011",
@@ -244,7 +244,7 @@
     },
     {
       "题号": "M061-S005",
-      "查询语句": "(title=\"Sign in\" || title=\"Login\") && port=\"80\" && ip6=false"
+      "查询语句": "(title=\"Sign in\" || title=\"Login\") && port=\"80\" && is_ipv6=false"
     },
     {
       "题号": "M062-S010",
